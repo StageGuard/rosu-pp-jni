@@ -1,3 +1,5 @@
+#![feature(round_ties_even)]
+
 use rosu_map::section::general::GameMode;
 
 use crate::{
