@@ -1,3 +1,4 @@
+#![feature(round_ties_even)]
 //! Library to calculate difficulty and performance attributes for all [osu!] gamemodes.
 //!
 //! A large part of `rosu-pp` is a port of [osu!lazer]'s difficulty and performance calculation
@@ -180,3 +181,4 @@ pub mod mania;
 pub mod model;
 
 mod util;
+mod jni;
